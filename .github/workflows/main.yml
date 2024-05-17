@@ -6,7 +6,7 @@ env:
   device: polaris
   clang_version: r450784e
   defconfig: |
-    polaris_defconfig
+    sdm845-perf_defconfig
   kernel_patch: |
     backport-path-umount.patch
   kernelsu_patch: |
