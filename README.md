@@ -6,7 +6,7 @@
 
 ## 使用
 
-本仓库用于编译 **小米 MIX2S (polris)** 的 **PixelExperience** 内核
+本仓库用于编译 **小米 MIX2S (polaris)** 的 **PixelExperience** 内核
 
 如需编译其他内核：
 
