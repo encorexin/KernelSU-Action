@@ -4,7 +4,7 @@ env:
   kernel_repository: MiCode/Xiaomi_Kernel_OpenSource
   kernel_branch: dipper-q-oss
   device: polaris
-  clang_version: r365631c
+  clang_version: r416183b
   defconfig: |
     polaris_user_defconfig
   kernel_patch: |
