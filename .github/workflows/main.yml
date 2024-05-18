@@ -1,12 +1,12 @@
 name: Check and Build
 
 env:
-  kernel_repository: MiCode/Xiaomi_Kernel_OpenSource
-  kernel_branch: dipper-q-oss
+  kernel_repository: encorexin/kernel_xiaomi_sdm845
+  kernel_branch: fourteen
   device: polaris
   clang_version: r416183b
   defconfig: |
-    polaris_user_defconfig
+    polaris_defconfig
   kernel_patch: |
     backport-path-umount.patch
   kernelsu_patch: |
