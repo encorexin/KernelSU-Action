@@ -6,7 +6,7 @@
 
 ## 使用
 
-本仓库用于编译 **小米 8 (dipper)** 的 **PixelExperience** 内核
+本仓库用于编译 **小米 MIX2S (polris)** 的 **PixelExperience** 内核
 
 如需编译其他内核：
 
@@ -18,7 +18,7 @@
 
 ## 参考配置
 
-本例：小米 8 (dipper) PixelExperience 14
+本例：小米 MIX2S (polaris) PixelExperience 14
 
 <https://github.com/PixelExperience-Devices/kernel_xiaomi_sdm845/tree/fourteen>
 
@@ -26,10 +26,10 @@
 env:
   kernel_repository: PixelExperience-Devices/kernel_xiaomi_sdm845
   kernel_branch: fourteen
-  device: dipper
+  device: polaris
   clang_version: r487747c
   defconfig: |
-    dipper_defconfig
+    polaris_defconfig
   kernel_patch: |
     backport-path-umount.patch
   kernelsu_patch: |
