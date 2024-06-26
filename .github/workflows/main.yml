@@ -13,7 +13,7 @@ env:
 
 on:
   schedule:
-    - cron: "50 9,21 * * *"
+    - cron: "50 9 15 * *"
   workflow_dispatch:
     inputs:
       allow_rebuild:
